@@ -8,6 +8,7 @@
     "start": "nodemon server.js",
     "herokustart": "node server.js"
   },
+  "proxy": "https://getirbariscakir.herokuapp.com/",
   "author": "Baris CAKIR",
   "license": "ISC",
   "dependencies": {
