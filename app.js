@@ -8,7 +8,7 @@ const mongoose = require("mongoose");
 const morgan = require("morgan");
 const bodyParser = require('body-parser');
 const recordsRouter = require("./api/routers/records");
-
+require("dotenv").config();
 /* =======================
     LOAD THE MIDDLEWEARES
 ==========================*/
