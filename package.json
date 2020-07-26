@@ -4,10 +4,10 @@
   "description": "getir assigment",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node ./node_modules/mocha/bin/mocha",
     "start": "nodemon server.js",
     "herokustart": "node server.js"
-  },  
+  },
   "author": "Baris CAKIR",
   "license": "ISC",
   "dependencies": {
@@ -18,6 +18,11 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.0.1",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2",
+    "should": "^13.2.3"
   }
 }
