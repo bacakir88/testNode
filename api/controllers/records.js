@@ -36,7 +36,6 @@ function getAllRecordsByFilters(req, res, next) {
     ];
 
     Record.aggregate(pipeline).then(docs => {
-
         var result = docs.map(doc =>{           
             return {
             key: doc._id.key,
